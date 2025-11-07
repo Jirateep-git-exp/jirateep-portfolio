@@ -13,8 +13,10 @@ const routes = [
   { path: '/contact', component: Contact },
 ]
 
+// Use Vite's BASE_URL so that the router knows the deployed subfolder (e.g. '/jirateep-portfolio/')
+// Without this, on GitHub Pages the initial path '/jirateep-portfolio/' would not match '/' and RouterView stays empty.
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 })
 
