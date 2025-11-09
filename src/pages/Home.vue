@@ -1,9 +1,11 @@
 <template>
   <div>
+    <section id="banner" class="mx-auto">
+      <Banner />
+    </section>
     <section id="hero" class="container mx-auto px-6 py-20">
       <Hero />
     </section>
-
     <section id="about" class="container mx-auto px-6 py-20">
       <About />
     </section>
@@ -23,6 +25,7 @@
 </template>
 
 <script setup lang="ts">
+import Banner from '../components/Banner.vue'
 import Hero from '../components/Hero.vue'
 import About from '../components/About.vue'
 import Projects from '../components/Projects.vue'
