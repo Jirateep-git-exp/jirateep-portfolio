@@ -22,6 +22,13 @@ const projects = [
     link: 'https://sundayandbam-keepi-webapp.vercel.app/login'
   },
   { 
+    title: 'Liar Game', 
+    desc: 'เกมที่ผู้เล่นต้องการที่จะโกงผู้เล่นอื่นๆ แต่ถ้าถูกจับก็จะต้องโดนส่งออกจากเกม เกมนี้ได้แรงบันดาลใจจากเกมที่มีอยู่แล้วแต่ผมปรับเปลี่ยนเพื่อไว้เอาไว้เล่นกับเพื่อนๆ', 
+    tags: ['Vue.js', 'Node.js', 'Socket.io'], 
+    img: new URL('../utils/images/liar-game.png', import.meta.url).href,
+    link: 'https://liar-game-chi.vercel.app/'
+  },
+  { 
     title: 'Market Stock System', 
     desc: 'ระบบจัดการสต็อกสินค้า พัฒนาโดยใช้ React + Node.js + MongoDB', 
     tags: ['React', 'Node.js', 'MongoDB'], 

@@ -1,15 +1,14 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div class="flex flex-col md:flex-row gap-8">
     <div>
       <h2 class="text-3xl font-semibold mb-4">เกี่ยวกับผม</h2>
       <p class="text-slate-700 leading-8" v-motion :initial="{ opacity: 0, y: 12 }" :enter="{ opacity: 1, y: 0 }">
-        มีประสบการณ์ในการพัฒนาเว็บด้วย Html, CSS, JavaScript, Vue.js, Node.js, C# แบบพื้นฐาน รวมถึงการใช้งานฐานข้อมูล
-        MongoDB ในโครงการต่างๆ และสกิลในการใช้ AI ที่เน้นการสร้างระบบที่มีประสิทธิภาพและใช้งานง่าย
-        นอกจากนี้ยังมีความสนใจในการเรียนรู้เทคโนโลยีใหม่ๆ อย่างต่อเนื่อง เพื่อพัฒนาทักษะและความรู้
-        และมุ่งมั่นที่จะสร้างผลงานที่มีคุณภาพสูงเพื่อให้ตอบสนองความต้องการของผู้ใช้งานได้อย่างดีที่สุด
+        ผมเป็นบัณฑิตจบใหม่สาขาวิศวกรรมคอมพิวเตอร์จาก
+        มหาวิทยาลัยแม่ฟ้าหลวง สนใจที่จะหางานเพื่อพัฒนาและ
+        หาความรู้ในสายงาน Technology ที่เกี่ยวข้องด้วยความรู้ด้านเทคโนโลยีและความรู้ด้าน AI และผมจะไม่หยุดเรียนรู้ในสายงานการทํางานนี้
       </p>
     </div>
-    <div>
+    <!-- <div>
       <h3 class="text-xl font-semibold mb-2">MBTI</h3>
       <p class="text-slate-700 leading-8" v-motion :initial="{ opacity: 0, y: 12 }" :enter="{ opacity: 1, y: 0 }">
         INTJ
@@ -44,13 +43,12 @@
         </div>
 
       </div>
-      <!-- images inline: stack on small screens, side-by-side on md+ -->
       <div class="mt-4 flex flex-wrap items-start gap-4">
           <img src="../utils/images/mbti-intj.jpg" alt="รูป MBTI"
             class="rounded-md shadow-lg object-cover h-44 w-44 md:h-56 md:w-56 flex-shrink-0" />
           <img src="../utils/images/intj-in-movie.jpg" alt="รูป MBTI-2"
             class="rounded-md shadow-lg object-cover h-44 w-44 md:h-56 md:w-56 flex-shrink-0" />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
