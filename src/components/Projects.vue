@@ -32,6 +32,13 @@ const projects_personal = [
     link: 'https://liar-game-chi.vercel.app/'
   },
   { 
+    title: 'Product Landing Page Template', 
+    desc: 'Landing Page สำหรับเว็บขายสินค้า พัฒนาโดยใช้ Vue.js', 
+    tags: ['Vue.js'], 
+    img: new URL('../utils/images/landing-page-template.png', import.meta.url).href,
+    link: 'https://product-landing-page-template.vercel.app/'
+  },
+  { 
     title: 'Market Stock System', 
     desc: 'ระบบจัดการสต็อกสินค้า พัฒนาโดยใช้ React + Node.js + MongoDB', 
     tags: ['React', 'Node.js', 'MongoDB'], 
